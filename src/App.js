@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 //import logo from './logo.svg';
 import './App.css';
 
+import profile from './components/profilepic.jpg';
+
 import Header from './components/header';
 
 import Footer from './components/footer';
@@ -48,6 +50,12 @@ class App extends Component {
 
           </ul>
 
+        </div>
+
+          <div id = "profile">
+
+          <img src={profile} alt="pic" id="profilepic"/>
+          
         </div>
 
 
